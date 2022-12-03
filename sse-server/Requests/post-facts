@@ -1,0 +1,4 @@
+curl -X POST \
+ -H "Content-Type: application/json" \
+ -d '{"info": "Messi is the best player in the world", "source": "Your eyes and brains."}'\
+ -s http://localhost:3001/fact
